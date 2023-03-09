@@ -5,14 +5,18 @@
 body > div {
   display: flow-root;
   min-height: 100vh;
-  background-color: hsl(var(--clr-white), 0.2);
+  background: fixed
+    linear-gradient(
+      225deg,
+      hsl(var(--color), 0.6),
+      hsl(var(--clr-lighter), 0.4),
+      hsl(var(--color), 0.6)
+    );
   @media (prefers-color-scheme: dark) {
     --color: var(--clr), 10%, 20%;
     --clr-lighter: var(--clr), 10%, 20%;
     --clr-darker: var(--clr), 10%, 10%;
     --clr-accent: calc(var(--clr) + 180), 10%, 20%;
-
-    background-color: hsl(var(--clr-black), 0.2);
   }
   @media (prefers-reduced-motion: reduce) {
     * {
@@ -83,6 +87,7 @@ button {
   padding: 0.4rem;
   color: hsl(var(--clr-black));
   background-color: hsl(var(--clr-white));
+  border-radius: 0.2rem;
   &:hover {
     color: hsl(var(--clr-white));
     background-color: hsl(var(--clr-black));

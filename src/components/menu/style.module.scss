@@ -1,4 +1,23 @@
-.menu {
+.navMenu {
+  padding: 2rem 1rem;
+  transition: all 0.2s;
+  background: conic-gradient(
+    from 90deg,
+    hsl(var(--clr-darker), 0.2),
+    transparent
+  );
+  @media (width>40rem) {
+    padding: 2rem 0 2rem 10rem;
+  }
+
+  button {
+    padding-inline: 1.4rem;
+    font-weight: bold;
+  }
+}
+
+#menu {
+  margin-block: 2rem;
   @media (width>40rem) {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -7,5 +26,22 @@
   }
   @media (width>80rem) {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .meal {
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    box-shadow: -0.2rem -0.2rem 1rem hsl(var(--clr-darker));
+    img {
+      margin: auto;
+    }
+
+    p:last-child {
+      padding: 0.4rem 1rem;
+      width: fit-content;
+      border-radius: 0.4rem;
+      box-shadow: 0.1rem 0.1rem 0.2rem hsl(var(--clr-darker));
+      font-weight: bold;
+    }
   }
 }

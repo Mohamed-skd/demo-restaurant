@@ -19,3 +19,8 @@ declare namespace Menu {
 
   type meals = meal[];
 }
+
+declare type cta = {
+  link: string;
+  content: string;
+};

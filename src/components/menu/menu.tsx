@@ -1,5 +1,6 @@
 import { MouseEvent, useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
+import { CTA } from "../incs/incs.js";
 import style from "./style.module.scss";
 
 function Meal({ meal }: { meal: Menu.meal }) {
@@ -8,7 +9,9 @@ function Meal({ meal }: { meal: Menu.meal }) {
   return (
     <article className={style.meal}>
       <img src={`imgs/${img}`} alt={name} />
-      <p>{cat}</p>
+      <p>
+        <em>{cat}</em>
+      </p>
       <h3>{name}</h3>
       <p>{desc}</p>
       <p>{price} €</p>
@@ -37,7 +40,7 @@ export default function Menu() {
 
   return (
     <main>
-      <aside>
+      <aside className={style.navMenu}>
         {cats.map((elem, key) => (
           <button className="link" onClick={handleNav} key={key}>
             {elem}
@@ -48,12 +51,14 @@ export default function Menu() {
       <section>
         <h2>{title}</h2>
 
-        <div className={`grid ${style.menu}`}>
+        <div className="grid" id={style.menu}>
           {menu.map((meal) => (
             <Meal key={meal.id} meal={meal} />
           ))}
         </div>
       </section>
+
+      <CTA cta={{ link: "/", content: "Venez vous régaler !" }} />
     </main>
   );
 }

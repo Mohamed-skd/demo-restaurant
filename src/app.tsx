@@ -16,8 +16,8 @@ import "./style.scss";
 function Page() {
   return (
     <>
-      <PageHeader />
       <PageNav />
+      <PageHeader />
       <Outlet />
       <PageFooter />
     </>

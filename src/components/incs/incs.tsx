@@ -2,11 +2,22 @@ import { Link } from "react-router-dom";
 import { useRouteError } from "react-router-dom";
 import style from "./style.module.scss";
 
-export function CTA() {
+export function CTA({ cta }: { cta?: cta }) {
+  if (cta) {
+    return (
+      <aside id={style.cta} className="clear-float">
+        <Link className="link" to={cta.link}>
+          {cta.content}
+        </Link>
+      </aside>
+    );
+  }
   return (
-    <Link className={`link ${style.cta}`} to={"menu"}>
-      Consulter la carte
-    </Link>
+    <aside id={style.cta} className="clear-float">
+      <Link className="link" to="menu">
+        Consulter la carte
+      </Link>
+    </aside>
   );
 }
 export function Lorem({ className }: { className?: string }) {

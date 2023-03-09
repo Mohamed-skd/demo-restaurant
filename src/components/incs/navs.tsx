@@ -3,11 +3,11 @@ import style from "./style.module.scss";
 
 export default function PageNav() {
   return (
-    <nav>
-      <Link className="link" to={"/"}>
+    <nav className="flex">
+      <Link className={`link ${style.navLink}`} to={"/"}>
         Accueil
       </Link>
-      <Link className="link" to={"menu"}>
+      <Link className={`link ${style.navLink}`} to={"menu"}>
         Carte
       </Link>
     </nav>
