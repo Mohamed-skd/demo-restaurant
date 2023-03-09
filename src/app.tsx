@@ -10,7 +10,7 @@ import PageFooter from "./components/incs/footers.js";
 import PageHeader from "./components/incs/headers.js";
 import Error from "./components/incs/incs.js";
 import PageNav from "./components/incs/navs.js";
-import { store } from "./utils/ts/types.js";
+import Menu from "./components/menu/menu.js";
 import "./style.scss";
 
 function Page() {
@@ -25,15 +25,28 @@ function Page() {
 }
 
 // ROUTER
+// loader
+async function getMeals() {
+  try {
+    const meals = await fetch("data/menu.json");
+    const json = await meals.json();
+    return json;
+  } catch (err) {
+    console.error(err);
+    return [];
+  }
+}
+// routes
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Page />} errorElement={<Error />}>
       <Route errorElement={<Error />}>
         <Route index element={<HomePage />} />
+        <Route path="menu" loader={getMeals} element={<Menu />} />
       </Route>
     </Route>
   )
 );
 
 // STATE MANAGER
-export const useStore = create<store>((set) => ({}));
+export const useStore = create<{}>((set) => ({}));

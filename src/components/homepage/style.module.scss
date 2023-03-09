@@ -1,0 +1,24 @@
+#welcome {
+  div {
+    flex-wrap: wrap;
+    @media (width>40rem) {
+      flex-wrap: nowrap;
+    }
+
+    figure {
+      width: 100%;
+      @media (width>40rem) {
+        align-self: stretch;
+      }
+
+      img {
+        margin: 0.4rem auto;
+        height: 100%;
+      }
+    }
+
+    p {
+      width: 80%;
+    }
+  }
+}

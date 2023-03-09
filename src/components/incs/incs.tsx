@@ -1,8 +1,15 @@
+import { Link } from "react-router-dom";
 import { useRouteError } from "react-router-dom";
-import { routeError } from "../../utils/ts/types.js";
 import style from "./style.module.scss";
 
-export function Lorem({ className = "lorem" }: { className: string }) {
+export function CTA() {
+  return (
+    <Link className={`link ${style.cta}`} to={"menu"}>
+      Consulter la carte
+    </Link>
+  );
+}
+export function Lorem({ className }: { className?: string }) {
   return (
     <p className={className}>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quod voluptas
@@ -28,10 +35,10 @@ export function Lorem({ className = "lorem" }: { className: string }) {
 
 export function MoreLorem({
   nbr = 2,
-  className = "more-lorem",
+  className,
 }: {
-  nbr: number;
-  className: string;
+  nbr?: number;
+  className?: string;
 }) {
   let tab = new Array(nbr).fill(className);
 
@@ -45,7 +52,7 @@ export function MoreLorem({
 }
 
 export default function Error() {
-  const error = useRouteError() as routeError;
+  const error = useRouteError() as Route.routeError;
   console.error(error);
 
   return (

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Viandes et Asperges",
+    "img": "meal-1.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Dinner",
+    "price": 12
+  },
+  {
+    "id": 2,
+    "name": "Croissant",
+    "img": "meal-2.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Petit Déjeuner",
+    "price": 6
+  },
+  {
+    "id": 3,
+    "name": "Café",
+    "img": "meal-3.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Petit Déjeuner",
+    "price": 4
+  },
+  {
+    "id": 4,
+    "name": "Piece de Boucher",
+    "img": "meal-4.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Déjeuner",
+    "price": 22
+  },
+  {
+    "id": 5,
+    "name": "Salade de Fruits",
+    "img": "meal-5.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Petit Déjeuner",
+    "price": 8
+  },
+  {
+    "id": 6,
+    "name": "Crêpes",
+    "img": "meal-6.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Petit Déjeuner",
+    "price": 12
+  },
+  {
+    "id": 7,
+    "name": "Pâtes Verte",
+    "img": "meal-7.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Dinner",
+    "price": 14
+  },
+  {
+    "id": 8,
+    "name": "Pizza",
+    "img": "meal-8.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Déjeuner",
+    "price": 16
+  },
+  {
+    "id": 9,
+    "name": "Viande",
+    "img": "meal-9.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Déjeuner",
+    "price": 12
+  },
+  {
+    "id": 10,
+    "name": "Poisson",
+    "img": "meal-10.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Dinner",
+    "price": 16
+  },
+  {
+    "id": 11,
+    "name": "Tomate Mozzarella",
+    "img": "meal-11.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Dinner",
+    "price": 6
+  },
+  {
+    "id": 12,
+    "name": "Volaille Rôti",
+    "img": "meal-12.jpg",
+    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut dolorem facere adipisci maxime delectus amet ipsum unde perspiciatis corrupti, itaque illum natus nostrum sequi, accusamus iusto voluptate obcaecati tempora eos doloremque ab nulla animi sit. Corporis, doloribus dolorem alias consequuntur quod ratione dolore mollitia sequi id tempora, magnam beatae similique.",
+    "cat": "Déjeuner",
+    "price": 18
+  }
+]

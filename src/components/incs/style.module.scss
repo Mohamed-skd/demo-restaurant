@@ -1,0 +1,10 @@
+footer {
+  padding: 0.2rem;
+  background-color: hsl(var(--clr-lighter), 0.4);
+
+  #copyright {
+    margin-right: 2rem;
+    color: currentColor;
+    float: right;
+  }
+}

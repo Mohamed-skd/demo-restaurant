@@ -1,0 +1,11 @@
+.menu {
+  @media (width>40rem) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (width>60rem) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (width>80rem) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
